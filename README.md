@@ -13,7 +13,9 @@ Module Federation을 적용하려면 Webpack 5이 필요하기 때문에, 최소
 1-1. Webpack 및 필수 패키지 설치
 먼저 webpack, webpack-cli, webpack-dev-server, 그리고 ModuleFederationPlugin을 위한 패키지를 설치합니다.
 
+```
 npm install --save-dev webpack webpack-cli webpack-dev-server
+```
 1-2. Webpack 설정 파일 작성
 다음으로 Webpack 설정 파일을 작성하여, 모듈을 노출하거나 다른 애플리케이션에서 로드할 수 있도록 합니다. 여기서 중요한 것은, 이미 Gulp로 빌드된 app.js와 template.js를 그대로 사용할 수 있도록 Webpack에서 처리하는 것입니다.
 
